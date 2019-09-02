@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string>
 #include<vector>
-#include<functional>
 
 struct Tim {
   Tim(const std::string& ime, const int& points, const int& prgolovi, const int& pogolovi) : naziv(ime), bodovi(points), primljeniGolovi(prgolovi), postignutiGolovi(pogolovi) {}
